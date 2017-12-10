@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to Google Translator</h1>
+
+<p> We are running Django </p>
+
+<form action="{% url 'TranslatorOutput' %}">
+        <input type="text" />
+        <br/>
+        <input type = "submit" value = "Translate"/>
+
+        <br/>
+</form>
+
+<br/>
+<a href="{% url 'AboutUs' %}" value="About Us">About Us </a>
+
+
+</body>
+</html>
